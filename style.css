@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans+Kannada:wght@600&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans+Kannada:wght@600&family=Passion+One&family=Permanent+Marker&display=swap');
+body{
+    background-image: url(https://dynamics.folio3.com/blog/wp-content/uploads/2021/07/shutterstock_1927630643.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.head img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin: 100px;
+}
+.head ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2500px;
+    justify-content: center;
+}
+.head li{
+    list-style: none;
+    margin: 50px;
+    text-decoration: none;
+    font-size: 80px;
+    position: relative;
+    bottom: 450px;
+}
+.head a{
+    text-decoration: none;
+    color: white;
+}
+.head button{
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    bottom: 450px;
+    font-size: 80px;
+    border-radius: 20%;
+    background-color: green;
+    border: 10px white solid;
+}
+.font h1{
+    color: orange;
+    font-size: 250px;
+    margin-left: 450px;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Noto Sans Kannada', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.font h2{
+    color: white;
+    font-size: 250px;
+    margin-left: 450px;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Noto Sans Kannada', sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+.font h3{
+    color: orange;
+    font-size: 250px;
+    margin-left: 450px;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Noto Sans Kannada', sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+.second{
+    height: 2500px;
+    background-color: white;
+}
+.second img{
+    height: 1300px;
+    width: 1900px;
+    margin-left: 2100px;
+    margin-top: 200px;
+}
+.second h1{
+    color: black;
+    font-size: 180px;
+    text-align: right;
+    position: relative;
+    right: 2500px;
+    bottom: 1000px;
+}
+.second h2{
+    color: orange;
+    font-size: 180px;
+    text-align: right;
+    position: relative;
+    right: 2500px;
+    bottom: 1000px;
+}
+.text {
+    height: 400px;
+    width: 800px;
+    margin-left: 300px;
+    border-right: 5px black solid;
+    
+}
+.text h4{
+    text-decoration: underline;
+    font-size: 80px;
+    color: green;
+}
+.text p{
+    color: black;
+    font-size: 60px;
+    align-content: flex-start;
+}
+.text2 {
+    height: 400px;
+    width: 800px;
+    position: relative;
+    left: 1500px;
+    bottom: 400px;
+    border-right: 5px black solid;
+}
+.text2 h5{
+    text-decoration: underline;
+    font-size: 80px;
+    color: green;
+}
+.text2 p{
+    color: black;
+    font-size: 60px;
+    align-content: flex-start;
+}
+.text3{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    left: 2500px;
+    bottom: 800px;
+    border-right: 5px black solid;
+}
+.text3 h6{
+    text-decoration: underline;
+    font-size: 80px;
+    color: green;
+}
+.text3 p{
+    color: black;
+    font-size: 60px;
+    align-content: flex-start;
+}
+.text4{
+    height: 400px;
+    width: 800px;
+    position: relative;
+    left: 3500px;
+    bottom: 1200px;
+    border-right: 5px black solid;
+}
+.text4 h3{
+    text-decoration: underline;
+    font-size: 80px;
+    color: green;
+}
+.text4 p{
+    color: black;
+    font-size: 60px;
+    align-content: flex-start;
+}
+.background img{
+    height: 1500px;
+    width: 100%;
+}
+.background h1{
+    color: green;
+    text-shadow: 10px 0px 10px green;
+    font-size: 150px;
+    margin: 100px;
+    margin-left: 1300px;
+    text-decoration: underline 10px black solid;
+}
+.select img{
+    height: 1500px;
+    width: 100%;
+    filter: blur(15px);
+}
+.select h1{
+    height: 250px;
+    width: 300px;
+    position: relative;
+    bottom: 1300px;
+    left: 300px;
+    color: white;
+    font-size: 100px;
+    text-decoration: underline red;
+}
+.select h2{
+    height: 200px;
+    width: 700px;
+    position: relative;
+    bottom: 1300px;
+    left: 300px;
+    color: white;
+    font-size: 50px;
+}
+select{
+    height: 200px;
+    width: 700px;
+    font-size: 70px;
+    position: relative;
+    bottom: 1250px;
+    left: 300px;
+    border: 10px yellow solid;
+    border-radius: 10px ;
+    background: transparent;
+    color: white;
+}
+select option{
+    background: transparent;
+    background-color: black;
+}
+.col1 p{
+    color: white;
+    position: relative;
+    left: 1900px;
+    font-size: 70px;
+    bottom: 2000px;
+    padding: 20px;
+}
+.col1 p:hover{
+    font-size: 90px;
+    color: chartreuse;
+}
+.col2 p{
+    color: white;
+    position: relative;
+    left: 3200px;
+    font-size: 70px;
+    bottom: 2860px;
+    padding: 20px;
+}
+.col2 p:hover{
+    font-size: 90px;
+    color: chartreuse;
+}
+.contact{
+    height: 600px;
+    width: 800px;
+    position: relative;
+    left: 300px;
+    bottom: 2200px;
+    border-right: 10px black solid;
+}
+.contact h3{
+    color: red;
+    font-size: 100px;
+}
+.contact p{
+    font-size: 70px;
+    color: green;
+}
+.ass{
+    height: 600px;
+    width: 800px;
+    position: relative;
+    left: 1200px;
+    bottom: 2800px;
+    border-right: 10px black solid;
+}
+.ass h4{
+    color: blueviolet;
+    font-size: 100px;
+}
+.ass p{
+    font-size: 70px;
+    color: green;
+}
+.ass img{
+    height: 200px;
+    width: 300px;
+}
+.ass h5{
+    height: 100px;
+    width: 400px;
+    background-color: darkgreen;
+    color: white; 
+    text-decoration: underline; 
+    font-size: 50px;
+    border-radius: 30px;
+}
+.info{
+     height: 600px;
+    width: 800px;
+    position: relative;
+    left: 2100px;
+    bottom: 3400px;
+    border-right: 10px black solid;
+}
+.info h6{
+    font-size: 100px;
+    text-decoration: underline;
+}
+.info li{
+    font-size: 60px;
+
+}
+.login{
+    height: 600px;
+    width: 800px;
+    position: relative;
+    left: 3000px;
+    bottom: 4000px;
+    border-right: 10px black solid;
+    cursor: pointer;
+    background-color: yellow;
+    opacity: 0.8;
+}
+.login h6{
+    font-size: 150px;
+
+}
+.login tr{
+    font-size: 100px;
+}
+#name{
+    width: 400px;
+    height: 60px;
+} 
+#password{
+    width: 400px;
+    height: 60px;   
+}
+#sub{
+    width: 200px;
+    height: 60px;
+    font-size: 40px;
+}
+#res{
+    width: 200px;
+    height: 60px;
+    font-size: 40px;
+}
